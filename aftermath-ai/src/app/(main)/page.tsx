@@ -46,7 +46,7 @@ export default function DashboardPage() {
               <AlertDescription className="text-indigo-800 mt-1">
                 Your {missingClosure[0].name} happened a while ago. We never closed the loop.
                 <div className="mt-3">
-                  <Button onClick={() => router.push('/app/companion')} size="sm" className="bg-indigo-600 hover:bg-indigo-700 text-white">
+                  <Button onClick={() => router.push('/companion')} size="sm" className="bg-indigo-600 hover:bg-indigo-700 text-white">
                     Check in with AI
                   </Button>
                 </div>
@@ -84,7 +84,7 @@ export default function DashboardPage() {
               <CardContent className="flex flex-col items-center justify-center py-8 text-center">
                 <CalendarClock className="w-8 h-8 text-gray-400 mb-3" />
                 <p className="text-sm text-gray-500 max-w-[200px]">Add an upcoming exam so the companion knows what moments matter.</p>
-                <Button onClick={() => router.push('/app/exams')} variant="outline" size="sm" className="mt-4">
+                <Button onClick={() => router.push('/exams')} variant="outline" size="sm" className="mt-4">
                   Add Exam
                 </Button>
               </CardContent>

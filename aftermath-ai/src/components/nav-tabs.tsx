@@ -6,11 +6,11 @@ import { Home, Calendar, MessageSquare, Users, Activity } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const tabs = [
-  { name: "Today", href: "/app", icon: Home },
-  { name: "Exams", href: "/app/exams", icon: Calendar },
-  { name: "Companion", href: "/app/companion", icon: MessageSquare },
-  { name: "Care Circle", href: "/app/care-circle", icon: Users },
-  { name: "Judge Panel", href: "/app/reasoning", icon: Activity },
+  { name: "Today", href: "/", icon: Home },
+  { name: "Exams", href: "/exams", icon: Calendar },
+  { name: "Companion", href: "/companion", icon: MessageSquare },
+  { name: "Care Circle", href: "/care-circle", icon: Users },
+  { name: "Judge Panel", href: "/reasoning", icon: Activity },
 ];
 
 export function NavTabs() {
